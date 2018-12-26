@@ -1,3 +1,11 @@
+# React snake
+
+Fun project just for the sake of trying React.
+
+[Demo](https://thomas-lhuillier.github.io/react-snake/)
+
+___
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
