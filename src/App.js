@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import KeyboardEventHandler from 'react-keyboard-event-handler';
 import { getRandomInt } from './tools';
-import './App.css';
+
+import './css/App.css';
 
 const BOARD_SIZE = 20;
+const FOOD_SCORE_VALUE = 1;
 const FPS = 6;
 const GET_NEXT_POSITION = {
   up: (x, y) => ([x, y - 1]),
@@ -13,9 +15,9 @@ const GET_NEXT_POSITION = {
 };
 
 const Status = (props) => {
-  return (
-    <h2 className="status">Score: {props.score}</h2>
-  )
+  return <h2 className="status">
+      Score: <span className="white f1">{props.score.toString().padStart(8, '0')}</span>
+    </h2>;
 }
 
 const Cell = (props) => {
@@ -137,7 +139,7 @@ class App extends Component {
     } else if (this.isFood(head)) {
       // Pop another food when eating one.
       this.spawnFood();
-      score++;
+      score += FOOD_SCORE_VALUE;
     } else {
       // Remove the last part of the snake only when NOT eating food.
       // Keeping the last part when eating food expands the body by one.
