@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-snake/static/css/main.5df75d36.chunk.css",
-  "main.js": "/react-snake/static/js/main.8083d4a2.chunk.js",
-  "main.js.map": "/react-snake/static/js/main.8083d4a2.chunk.js.map",
+  "main.css": "/react-snake/static/css/main.3434490c.chunk.css",
+  "main.js": "/react-snake/static/js/main.fd491313.chunk.js",
+  "main.js.map": "/react-snake/static/js/main.fd491313.chunk.js.map",
   "static/js/1.10360145.chunk.js": "/react-snake/static/js/1.10360145.chunk.js",
   "static/js/1.10360145.chunk.js.map": "/react-snake/static/js/1.10360145.chunk.js.map",
   "runtime~main.js": "/react-snake/static/js/runtime~main.d1a1eebc.js",
   "runtime~main.js.map": "/react-snake/static/js/runtime~main.d1a1eebc.js.map",
-  "static/css/main.5df75d36.chunk.css.map": "/react-snake/static/css/main.5df75d36.chunk.css.map",
+  "static/css/main.3434490c.chunk.css.map": "/react-snake/static/css/main.3434490c.chunk.css.map",
   "index.html": "/react-snake/index.html",
-  "precache-manifest.bf3c570106d6e9f0f34e6437bab49ee2.js": "/react-snake/precache-manifest.bf3c570106d6e9f0f34e6437bab49ee2.js",
+  "precache-manifest.a646497c6a494a6996091d8d81d567d8.js": "/react-snake/precache-manifest.a646497c6a494a6996091d8d81d567d8.js",
   "service-worker.js": "/react-snake/service-worker.js"
 }
