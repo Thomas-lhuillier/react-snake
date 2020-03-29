@@ -8,7 +8,7 @@ steps:
   image: node
   commands:
   - npm install
-- name: build
+- name: buil-dplease
   image: node
   commands:
   - npm run build
