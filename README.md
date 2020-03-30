@@ -1,6 +1,6 @@
 # React snake
 
-Fun project just for the sake of trying React.
+Fun project just for the sake of trying React...
 
 [Demo](https://thomas-lhuillier.github.io/react-snake/)
 
